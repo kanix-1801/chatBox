@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-    <NavBar />
-    <ChatRoom />
-    {/* <Login /> */}
+    {/* <NavBar /> */}
+    {/* <ChatRoom /> */}
+    <Login />
     </>
   )
 }
