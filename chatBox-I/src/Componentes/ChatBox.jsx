@@ -7,13 +7,18 @@ const ChatBox =()=>{
         {
             id:2,
             message :"how are you"
+        },
+        {
+            id:3,
+            message:"are you there"
         }
     ] 
     return(<>
     <div className="pb-44 pt-20 containerWrap">
-        {message.map(message => (
-            // <div>{`${message.id} : ${message}`}</div>
-            console.log(message)
+        {message.map(message =>(
+            // console.log(message)
+            <div>{message.message}</div>
+            
         ))}
     </div>
     </>)
