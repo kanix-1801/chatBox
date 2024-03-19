@@ -13,8 +13,8 @@ const NavBar = () => {
     <a className="btn btn-ghost text-xl">SaMपर्क</a>
   </div>
   <div className="flex-none">
-    <button className="btn btn-square btn-ghost">
-      <button>logout</button>
+    <button className="btn btn-ghost px-10">
+    Logout
     </button>
   </div>
 </div>
