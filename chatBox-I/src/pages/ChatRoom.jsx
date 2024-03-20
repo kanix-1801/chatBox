@@ -4,11 +4,11 @@
 import ChatBox from "../Componentes/ChatBox";
 import SendMsg from "../Componentes/SendMsg";
 
-const ChatRoom =()=>{
+const ChatRoom = () => {
     // const [msg , setMes] = useState('hello');
-    return(<>
-    <ChatBox />
-    <SendMsg />
+    return (<>
+        <ChatBox />
+        <SendMsg />
     </>)
 }
 
