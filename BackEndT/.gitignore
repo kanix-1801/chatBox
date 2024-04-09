@@ -1,0 +1,26 @@
+# Ignore compiled binaries
+*.o
+*.out
+*.exe
+
+# Ignore dependency directories
+node_modules/
+vendor/
+
+# Ignore IDE/Editor files
+.vscode/
+.idea/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files
+.env
+
+# Ignore logs and temporary files
+logs/
+tmp/
+
+# Ignore sensitive or private files
+config/secrets.yml
